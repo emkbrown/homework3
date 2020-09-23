@@ -56,20 +56,21 @@ table{
 }
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7E0830;
   color: #FFFFFF;
   min-width: 125px;
   width: auto;
   padding: 10px;
   text-align: center;
+  vertical-align: middle;
   text-transform: uppercase;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #000000;
   border-collapse: collapse;
 }
 
 .rowhead{
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
+  border-bottom: 2px solid #000000;
+  border-right: 2px solid #000000;
   border-collapse: collapse;
   text-align: center;
   vertical-align: middle;
@@ -78,13 +79,13 @@ table{
 td{
   text-align: center;
   padding: 10px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #000000;
   
 }
 
 tr{
   background-color: transparent;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #000000;
   border-collapse: collapse;
 }
 
@@ -120,6 +121,7 @@ tbody tr:last-child td:last-child{
 
 footer{
   min-height: 75 px;
+  height: auto;
   width:100%;
   background:#000000;
   text-align:center;
